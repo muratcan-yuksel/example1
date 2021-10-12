@@ -17,3 +17,15 @@
 .text {
   z-index: 2;
 }
+.navBar {
+  opacity: 50%;
+  z-index: 2;
+}
+#backPosition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  height: 100%;
+}
