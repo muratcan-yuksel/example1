@@ -28,3 +28,16 @@
   align-items: center;
   justify-content: center;
 }
+#mainStoryContainer {
+  height: 40em;
+  width: 40em;
+}
+.storyContainer {
+  height: 10em;
+  width: 10em;
+}
+.stories {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}

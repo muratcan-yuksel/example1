@@ -2,6 +2,12 @@ import React from "react";
 import mainImg from "../assets/main.jpg";
 import "../style/stories.css";
 import Button from "react-bootstrap/Button";
+import one from "../assets/one.jpg";
+import two from "../assets/two.jpg";
+import three from "../assets/three.jpg";
+import four from "../assets/four.jpg";
+import five from "../assets/five.jpg";
+import six from "../assets/six.jpg";
 
 const Stories = () => {
   return (
@@ -19,6 +25,11 @@ const Stories = () => {
             at illo!
           </p>
           <Button variant="outline-danger">Danger</Button>{" "}
+        </div>
+      </div>
+      <div id="mainStoryContainer">
+        <div className="storyContainer">
+          <img className="stories" src={one} alt="" />
         </div>
       </div>
     </div>
