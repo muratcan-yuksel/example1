@@ -3,6 +3,7 @@
   justify-content: space-evenly;
   align-content: center;
   margin-top: 2em;
+  flex-wrap: wrap;
 }
 .iconItem {
   display: flex;
@@ -11,5 +12,5 @@
   align-items: center;
 }
 .para {
-  width: 30vw;
+  width: 20em;
 }
