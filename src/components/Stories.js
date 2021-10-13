@@ -11,7 +11,7 @@ import six from "../assets/six.jpg";
 
 const Stories = () => {
   return (
-    <div>
+    <div id="container">
       <div className="mainPart">
         <div className="imgContainer">
           <img id="mainImage" src={mainImg}></img>
@@ -30,6 +30,21 @@ const Stories = () => {
       <div id="mainStoryContainer">
         <div className="storyContainer">
           <img className="stories" src={one} alt="" />
+        </div>
+        <div className="storyContainer">
+          <img className="stories" src={two} alt="" />
+        </div>{" "}
+        <div className="storyContainer">
+          <img className="stories" src={three} alt="" />
+        </div>{" "}
+        <div className="storyContainer">
+          <img className="stories" src={four} alt="" />
+        </div>
+        <div className="storyContainer">
+          <img className="stories" src={five} alt="" />
+        </div>{" "}
+        <div className="storyContainer">
+          <img className="stories" src={six} alt="" />
         </div>
       </div>
     </div>

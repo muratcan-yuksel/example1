@@ -1,3 +1,9 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .mainPart {
   display: flex;
   justify-content: center;
@@ -6,7 +12,7 @@
 }
 
 .imgContainer {
-  border: 1px solid black;
+  border: 1px solid rgb(146, 144, 144);
   height: 20em;
   width: 30em;
   position: relative;
@@ -20,7 +26,7 @@
   width: 100%;
 }
 .textContainer {
-  border: 1px solid black;
+  border: 1px solid rgb(146, 144, 144);
   height: 20em;
   width: 30em;
   display: flex;
@@ -29,12 +35,17 @@
   justify-content: center;
 }
 #mainStoryContainer {
-  height: 40em;
-  width: 40em;
+  margin-top: 4em;
+  /* height: 30em; */
+  /* width: 65vw; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .storyContainer {
-  height: 10em;
-  width: 10em;
+  height: 15em;
+  width: 20em;
+  margin: 1.5em;
 }
 .stories {
   object-fit: fill;
