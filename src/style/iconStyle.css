@@ -1,0 +1,14 @@
+.iconContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.iconItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  width: 30vw;
+}
