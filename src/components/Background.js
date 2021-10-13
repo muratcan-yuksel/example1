@@ -13,9 +13,12 @@ const Background = () => {
           <h1 className="backgroundTitle">TechLab</h1>
           <div className="text">Lorem ipsum dolor sit amet consectetur</div>
           <div className="text">fugit error aliquid?</div>
-          <Button className="danger" variant="danger">
-            Get in Touch
-          </Button>{" "}
+          <a href="#form">
+            {" "}
+            <Button className="danger" variant="danger">
+              Get in Touch
+            </Button>{" "}
+          </a>
         </div>
       </div>
     </div>

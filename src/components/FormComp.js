@@ -7,7 +7,7 @@ import "../style/formStyle.css";
 const FormComp = () => {
   return (
     <div id="container">
-      <Form>
+      <Form id="form">
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>Your name</Form.Label>
           <Form.Control as="textarea" placeholder="Enter name" rows={1} />
