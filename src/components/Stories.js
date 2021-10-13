@@ -24,7 +24,7 @@ const Stories = () => {
             veniam nesciunt veritatis minus modi sed ducimus enim? Iste expedita
             at illo!
           </p>
-          <Button variant="outline-danger">Danger</Button>{" "}
+          <Button variant="outline-danger">View Project</Button>{" "}
         </div>
       </div>
       <div id="mainStoryContainer">

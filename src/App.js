@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Icons from "./components/Icons";
 // import "./style/generalStyle.css";
 import Stories from "./components/Stories";
+import FormComp from "./components/FormComp";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Background />
       <Icons />
       <Stories />
+      <FormComp />
     </div>
   );
 };
