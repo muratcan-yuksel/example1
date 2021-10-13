@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../assets/background.jpg";
-import "../style/style.css";
+import "../style/backgroundStyle.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 
