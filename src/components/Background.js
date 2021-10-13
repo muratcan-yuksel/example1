@@ -8,10 +8,14 @@ const Background = () => {
   return (
     <div>
       <div id="imgContainer">
-        <img id="back" src={image} alt="" />
+        <img id="backgroundImg" src={image} alt="" />
         <div id="backPosition">
-          <div className="text">lolooooo</div>
-          <Button variant="danger">Danger</Button>{" "}
+          <h1 className="backgroundTitle">TechLab</h1>
+          <div className="text">Lorem ipsum dolor sit amet consectetur</div>
+          <div className="text">fugit error aliquid?</div>
+          <Button className="danger" variant="danger">
+            Get in Touch
+          </Button>{" "}
         </div>
       </div>
     </div>

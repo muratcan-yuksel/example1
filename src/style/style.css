@@ -3,9 +3,10 @@
   height: 80vh;
   width: 100%;
   position: relative;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#back {
+#backgroundImg {
   position: absolute;
 
   opacity: 75%;
@@ -14,18 +15,35 @@
   width: 100%;
   z-index: -1;
 }
+.backgroundTitle {
+  z-index: 2;
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 4em;
+}
 .text {
   z-index: 2;
+  color: white;
+  /* margin: 1em; */
+  font-weight: 500;
 }
 .navBar {
   opacity: 50%;
   z-index: 2;
+}
+.navTitle {
+  border: 4px solid black;
+  padding: 2px;
 }
 #backPosition {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: 100%;
+}
+.danger {
+  width: 13em;
+  margin-top: 1rem;
 }
