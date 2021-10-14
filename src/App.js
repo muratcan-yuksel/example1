@@ -6,6 +6,7 @@ import Icons from "./components/Icons";
 // import "./style/generalStyle.css";
 import Stories from "./components/Stories";
 import FormComp from "./components/FormComp";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Icons />
       <Stories />
       <FormComp />
+      <Footer />
     </div>
   );
 };
