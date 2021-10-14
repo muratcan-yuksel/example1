@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/background.jpg";
+import backgrounImage from "../assets/background.jpg";
 import "../style/backgroundStyle.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
@@ -8,7 +8,7 @@ const Background = () => {
   return (
     <div>
       <div id="imgContainer">
-        <img id="backgroundImg" src={image} alt="" />
+        <img id="backgroundImg" src={backgrounImage} alt="" />
         <div id="backPosition">
           <h1 className="backgroundTitle">TechLab</h1>
           <div className="text">Lorem ipsum dolor sit amet consectetur</div>
