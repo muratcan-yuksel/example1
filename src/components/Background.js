@@ -8,7 +8,12 @@ const Background = () => {
   return (
     <div>
       <div id="imgContainer">
-        <img id="backgroundImg" src={backgroundImage} alt="" />
+        <img
+          style={{ opacity: "80%" }}
+          id="backgroundImg"
+          src={backgroundImage}
+          alt=""
+        />
         <div id="backPosition">
           <h1 className="backgroundTitle">TechLab</h1>
           <div className="text">Lorem ipsum dolor sit amet consectetur</div>

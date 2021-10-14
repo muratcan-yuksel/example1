@@ -46,7 +46,7 @@ const Footer = () => {
                   dictum vel in justo.
                 </p>
               </div>
-              <div className="col item social">
+              {/* <div className="col item social">
                 <a href="#">
                   <i className="icon ion-social-facebook"></i>
                 </a>
@@ -59,7 +59,7 @@ const Footer = () => {
                 <a href="#">
                   <i className="icon ion-social-instagram"></i>
                 </a>
-              </div>
+              </div> */}
             </div>
             <p className="copyright">Company Name © 2018</p>
           </div>
