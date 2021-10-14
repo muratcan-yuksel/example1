@@ -9,6 +9,7 @@ import FormComp from "./components/FormComp";
 import Footer from "./components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import backgroundImage from "./assets/background.jpg";
 
 const App = () => {
   //this aos is for the transition animations
@@ -19,9 +20,7 @@ const App = () => {
     <div>
       <NavbarComp />
       <Background />
-
       <Icons />
-
       <div data-aos="zoom-out-up">
         <Stories />
       </div>
